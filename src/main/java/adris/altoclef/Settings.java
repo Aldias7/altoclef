@@ -57,7 +57,7 @@ public class Settings implements IFailableConfigFile {
      * NOT RECOMMENDED, as it will make debugging more difficult.
      * But if you know what you're doing, go nuts.
      */
-    private boolean hideAllWarningLogs = false;
+    private boolean hideAllWarningLogs = true;
 
     /**
      * The prefix for commands (ex. @gamer )
@@ -72,7 +72,7 @@ public class Settings implements IFailableConfigFile {
     /**
      * If true, will show a timer.
      */
-    private boolean showTimer = false;
+    private boolean showTimer = true;
 
     /**
      * The delay between moving items for crafting/furnace/any kind of inventory movement.
@@ -92,7 +92,7 @@ public class Settings implements IFailableConfigFile {
      * <p>
      * -1 (or less than 0) to disable.
      */
-    private float resourcePickupDropRange = -1;
+    private float resourcePickupDropRange = 25;
 
 
     /**
